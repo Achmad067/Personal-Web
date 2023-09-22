@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation Math Operation</title>
+   <script src="script.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1> Math Operation Calculation </h1>
+        <br>
+        <div class="container">
+            <div class="fibo">
+                <h3>Fibonacci Sequence</h3>
+                    <form id="fiboForm">
+                        <table>
+                            <tr>
+                                <td> Input </td>
+                                <td> : </td>
+                                <td><input type="number" id="fiboInput" placeholder="Input sequence"  required ></td>
+                            </tr>
+                        </table>
+                        <button type="submit" id="submitFibo"> Calculate! </button>
+                    </form>
+                    <br>
+                    
+                <p>Result : <span id="fiboResult"></span></p>
+            </div>
+                <br><br><br>
+            <div class="vol">    
+                <h3>Calculation of a block volume.</h3>
+                <form id="volForm">
+                    <table>    
+                        <tr>
+                            <td> Lenght </td>
+                            <td> : </td>
+                            <td> <input type="number"  id="length" placeholder="Input lenght"  required ></td>
+                        </tr>
+                        <tr>
+                            <td> Width </td>
+                            <td> : </td>
+                            <td> <input type="number"  id="width" placeholder="Input width"  required ></td>
+                        </tr>
+                        <tr>
+                            <td> Height </td>
+                            <td> : </td>
+                            <td> <input type="number" id="height" placeholder="Input height"  required ></td>
+                        </tr>
+                    </table> 
+                    <button type="submit" id="submitVol"> Calculate! </button>
+                </form>
+                <br>
+                <p>Result : <span id="volResult"></span></p>
+            </div>
+            <div class="cube">
+                <h3>Calculation of a cube volume.</h3>
+                <form id="cubeForm">
+                    <table>
+                        <tr>
+                            <td> Edge </td>
+                            <td> : </td>
+                            <td><input type="number" id="edge" placeholder="Input edge" required></td>
+                        </tr>
+                    </table>
+                    <button type="submit" id="submitCube">Calculate</button>
+                    <br>
+                    <p>Result : <span id="cubeResult"></span></p>
+                </form>
+            </div>
+            <div class="tube">
+                <h3>Calculation of a tube volume</h3>
+                <form id="tubeForm">
+                    <table>
+                        <tr>
+                            <td> Radius </td>
+                            <td> : </td>
+                            <td><input type="number" id="radius" placeholder="Input radius" required></td>
+                        </tr>
+                        <tr>
+                            <td> Height </td>
+                            <td> : </td>
+                            <td> <input type="number"  id="heightTube" placeholder="Input Height" required></td>
+                        </tr>
+                    </table>
+                    <button type="submit" id="submitTube">Calculate!</button>
+                    <br>
+                    <p>Result : <span id="tubeResult"></span></p>
+                    <p class="note">π : 3.1415926535898</p>
+                </form>
+            </div>
+        </div>   
+    </main>
+</body>
+<br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+    <div class="aboutMe">
+        <p>Name : Achmad Irsyadul Ibad</p>
+        <P>Student ID : 2215101067</P>
+        <p>Class : IKI</p>
+    </div>
+</footer>
+</html>

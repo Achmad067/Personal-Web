@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;    
+}
+
+.fibo {
+    text-align: center;
+    width: 400px; height: 250px;
+    border-radius: 2%;
+    background-color: lightgrey;
+    align-content: center;
+    border: 2px grey solid;
+}
+
+.vol {
+    text-align: center;
+    width: 400px; height: 250px;
+    border-radius: 2%;
+    background-color: lightgrey;
+    align-content: center;
+    border: 2px grey solid;
+}
+.cube {
+    text-align: center;
+    width: 400px; height: 250px;
+    border-radius: 2%;
+    background-color: lightgrey;
+    align-content: center;
+    border: 2px grey solid;
+}
+.tube {
+    text-align: center;
+    width: 400px; height: 250px;
+    border-radius: 2%;
+    background-color: lightgrey;
+    align-content: center;
+    border: 2px grey solid;
+}
+
+.aboutMe {
+    background-color: lightgray;
+    height: 120px;
+    text-align: center;
+    border: 2px lightslategray solid;
+}
+.aboutMe, p {
+    padding-top: 2px;
+}
+.note {
+    opacity: 0.6;
+}
+
+#fiboResult, #volResult, #cubeResult, #tubeResult {
+    font-weight: bold;
+} 
+ 
+#submitFibo, #submitVol, #submitCube, #submitTube {
+    margin-top: 10px;
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}  
+#submitFibo:hover, #submitVol:hover, #submitCube:hover, #submitTube:hover {
+    background-color: #005F6B;
+}
+  
